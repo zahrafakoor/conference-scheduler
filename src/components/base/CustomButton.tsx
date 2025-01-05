@@ -6,14 +6,25 @@ import { Typography } from '@mui/material';
 interface OwnProps extends ButtonProps {
   text: string;
   icon?: React.ReactElement;
+  className?: string;
   onClick?: () => void;
 }
 
-const CustomButton: React.FC<OwnProps> = ({ text, icon, onClick, ...rest }) => {
-  const { classes } = useStyles();
+const CustomButton: React.FC<OwnProps> = ({
+  text,
+  icon,
+  onClick,
+  className,
+  ...rest
+}) => {
+  const { classes, cx } = useStyles();
 
   return (
-    <Button {...rest} className={classes.button} onClick={onClick}>
+    <Button
+      {...rest}
+      className={cx(classes.button, className)}
+      onClick={onClick}
+    >
       <Typography variant="text" className={classes.buttonText}>
         {text}
       </Typography>
@@ -25,18 +36,19 @@ const CustomButton: React.FC<OwnProps> = ({ text, icon, onClick, ...rest }) => {
 const useStyles = makeStyles()((theme) => ({
   button: {
     position: 'relative',
-    background: theme.palette.primary.main,
+    background: theme.palette.secondary.main,
     color: theme.palette.common.white,
     width: 273,
     height: 55,
-    border: `2px solid ${theme.palette.primary.main}`,
+    border: `2px solid ${theme.palette.secondary.main}`,
     borderRadius: 8,
     textAlign: 'center',
-    minWidth: 273,
-
     '&:hover': {
       background: theme.palette.common.white,
-      color: theme.palette.primary.main,
+      color: theme.palette.secondary.main,
+    },
+    [theme.breakpoints.up('lg')]: {
+      minWidth: 273,
     },
   },
   buttonText: {

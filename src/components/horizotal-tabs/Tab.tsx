@@ -20,9 +20,17 @@ const useStyles = makeStyles()((theme) => {
       width: '46px',
       height: '44px',
       padding: 0,
+      marginLeft:'1rem',
       borderRadius: '8px',
       '& span': {
         color: theme.palette.primary.main,
+      },
+      '&:hover': {
+        opacity:0.3,
+        background: theme.palette.primary.main,
+        '& span': {
+          color: theme.palette.common.white,
+        },
       },
     },
     selected: {
