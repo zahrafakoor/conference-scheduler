@@ -127,7 +127,7 @@ const useStyles = makeStyles()((theme) => {
     },
     title: {
       marginBottom: 16,
-      color: theme.palette.primary.main
+      color: theme.palette.primary.main,
     },
     item: {
       display: 'flex',

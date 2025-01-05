@@ -6,7 +6,7 @@ export const colors = {
   secondary: '#41B883',
   warning: '#E6A800',
   black: '#000000',
-  gray: '#F2F2F2'
+  gray: '#F2F2F2',
 };
 
 declare module '@mui/material/styles' {

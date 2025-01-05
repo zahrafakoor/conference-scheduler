@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {events} from './event-data/eventData';
+import { events } from './event-data/eventData';
 import HorizontalTabs from '../../components/horizotal-tabs';
 import TabPanel from '../../components/TabPanel';
 import { makeStyles } from 'tss-react/mui';
@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
   const [selectedTab, setSelectedTab] = useState(0);
   const { classes } = useStyles();
 
-  const handleTabChange = (event: React.ChangeEvent<{}>, newTab: number) => {
+  const handleTabChange = (_event: React.ChangeEvent<any>, newTab: number) => {
     setSelectedTab(newTab);
   };
 

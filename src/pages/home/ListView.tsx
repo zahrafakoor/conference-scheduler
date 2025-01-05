@@ -20,7 +20,9 @@ const ListView: React.FC<OwnProps> = ({ events }) => {
           style={{ background: index % 2 === 0 ? undefined : 'white' }}
         >
           <div className={classes.item}>
-            <Typography variant="title" className={classes.title}>{event.title}</Typography>
+            <Typography variant="title" className={classes.title}>
+              {event.title}
+            </Typography>
             <Typography variant="text" className={classes.location}>
               <span className="material-symbols-outlined">location_on</span>
               <span className={classes.locationText}>{event.location}</span>
@@ -95,7 +97,7 @@ const useStyles = makeStyles()((theme) => {
       },
     },
     title: {
-      color: theme.palette.primary.main
+      color: theme.palette.primary.main,
     },
   };
 });
