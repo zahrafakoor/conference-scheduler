@@ -38,8 +38,6 @@ npm start
 
 This project has already been deployed and is live at the following URL: https://polite-sky-0f3acc210.4.azurestaticapps.net/
 
-You can access the project at this URL without needing to clone or run the project on your local machine.
-
 ## Additional Notes
 
-- The web app provides a responsive interface which adapts to different screen sizes and devices(Desktop, Tablets, Smartphones).
+- The web app provides a responsive interface which adapts to different screen sizes and devices.

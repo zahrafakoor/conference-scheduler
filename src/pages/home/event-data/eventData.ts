@@ -12,8 +12,8 @@ import event9 from './assets/event9.jpg';
 export const events: Event[] = [
   {
     image: event1,
-    title: 'Annual Tech Conference 2023: The Future of Innovation',
-    date: '2023-07-02',
+    title: 'Annual Tech Conference 2025: The Future of Innovation',
+    date: '2025-07-02',
     time: '10:00',
     location: 'Elbphilharmonie, Hamburg',
     price: '5.99',
@@ -21,8 +21,8 @@ export const events: Event[] = [
   },
   {
     image: event2,
-    title: 'AI and Data Science Symposium 2023',
-    date: '2023-06-01',
+    title: 'AI and Data Science Symposium 2025',
+    date: '2025-06-01',
     time: '14:00',
     location: 'Brandenburg Gate, Berlin',
     price: '10.99',
@@ -30,7 +30,7 @@ export const events: Event[] = [
   {
     image: event3,
     title: 'International AI Summit',
-    date: '2023-06-15',
+    date: '2025-06-15',
     time: '19:30',
     location: 'Cologne Cathedral, Cologne',
     price: '25.50',
@@ -38,7 +38,7 @@ export const events: Event[] = [
   {
     image: event4,
     title: 'Global Entrepreneurship Forum',
-    date: '2023-08-05',
+    date: '2025-08-05',
     time: '09:00',
     location: 'Hochschule München, Munich',
     price: '30.00',
@@ -46,8 +46,8 @@ export const events: Event[] = [
   },
   {
     image: event5,
-    title: 'Smart Cities Conference 2023: Urban Technologies',
-    date: '2023-09-10',
+    title: 'Smart Cities Conference 2025: Urban Technologies',
+    date: '2025-09-10',
     time: '13:00',
     location: 'Frankfurt University, Frankfurt',
     price: '15.00',
@@ -55,7 +55,7 @@ export const events: Event[] = [
   {
     image: event6,
     title: 'Blockchain and Beyond',
-    date: '2023-07-20',
+    date: '2025-07-20',
     time: '11:00',
     location: 'Berlin Technical University, Berlin',
     price: '20.00',
@@ -63,15 +63,15 @@ export const events: Event[] = [
   {
     image: event7,
     title: 'Smart Cities Conference',
-    date: '2023-10-15',
+    date: '2025-10-15',
     time: '15:00',
     location: 'University of Stuttgart, Stuttgart',
     price: '12.50',
   },
   {
     image: event8,
-    title: 'Cybersecurity Summit 2023',
-    date: '2023-11-01',
+    title: 'Cybersecurity Summit 2025',
+    date: '2025-11-01',
     time: '10:30',
     location: 'University of Leipzig, Leipzig',
     price: '18.00',
@@ -80,7 +80,7 @@ export const events: Event[] = [
   {
     image: event9,
     title: 'Future of Robotics Conference',
-    date: '2023-12-05',
+    date: '2025-12-05',
     time: '17:00',
     location: 'RWTH Aachen University, Aachen',
     price: '35.00',
